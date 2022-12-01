@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style:none;
+    text-decoration:none;
+}
+
+body{
+    background-color:#ebebeb;
+}
+#conatiner{ /*전체 구조*/
+    margin:0 auto;
+    width: 100%;
+    height:100%;
+}
+/* 헤더 */
+header{
+    width:100%;
+    height:200px;
+    background-color:#375959;
+}
+#logo{
+    float:left;
+    width:250px;
+    height:100px;
+    line-height:70px;
+    padding:20px;   
+}
+#logo h1{
+    font-family: 'yg-jalnan';
+    font-weight:100;
+    font-size:50px;
+    color:#fff;
+    text-shadow:0 -1px 0 #222;
+}
+#inform{
+    float:right;
+    width:300px;
+    height:100px;
+    padding-right:10px;
+    font-size:18px;
+    font-family: 'S-CoreDream-3Light';
+}
+#inform > ul>li{
+    float: right;
+    padding:15px;
+    margin-right:20px;
+    font-weight:600;
+}
+
+#inform> ul>li> a{
+    display:block;
+    color:white;
+}
+#inform> ul>li> a:hover{
+    color:#07c;
+}
+
+nav{
+    font-size:18px;
+    clear:both;
+    width:100%;
+    height:80px;
+    overflow:hidden;
+    padding:50px;
+    background-color:#375959;
+    font-family: 'S-CoreDream-3Light';
+}
+
+
+#topMenu > li{
+    float : left;
+    margin-right:50px;
+    margin-top:-20px;
+}
+
+#topMenu > li > a{
+    display:block;
+    color:white;
+    font-weight:600;
+}
+
+#topMenu > li > a:hover{
+    color:#D1433A; /*마우스 포인터 올리면 바뀌는 색*/
+}
+/* 바디 정보 */
+#content{
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 1000px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+}
+#writeinfo{
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+#writeinfo table,#writeinfo td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#writeinfo table{
+    width: 660px;
+    height: 70px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title{
+    background-color: #375959;
+    color: white;
+}
+hr{
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+#writecontents{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+#writecontents>form>img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#writecontents>form>p{
+    position: absolute;
+    left: 50%;
+    top: 400px;
+    transform: translate(-50%,-50%);
+}
+#writecontents>#dat{
+    position: absolute;
+    left: 9%;
+    top: 95%
+}
+button{
+    background-color: #375959;
+    color: white;
+    width: 60px;
+    height: 35px;
+}
+#goList{
+    position: absolute;
+    right: 210px;
+    bottom: 70px;
+}
+#w_remove{
+    position: absolute;
+    right: 80px;
+    bottom: 70px;
+}
+#w_edit{
+    position: absolute;
+    right: 145px;
+    bottom: 70px;
+}
+#datgle{
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+#datgle table{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 80%;
+}
+#datgle table, #datgle td{
+    border-collapse: collapse;
+    border-right: 1px solid #eee;
+}
+#datgle td:not(#datcon){
+    text-align: center;
+}
+#datgle>form>input{
+    position: absolute;
+    width: 550px;
+    left: 90px;
+    height: 35px;
+    font-size: 14px;
+}
+#datgle>form>button{
+    position: absolute;
+    right: 85px;
+}

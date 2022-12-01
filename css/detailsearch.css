@@ -1,0 +1,96 @@
+@font-face { /*여기어때*/
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {/*감성쩔*/ /*소글씨*/
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face { /*에스코어 드림*/ /*제목같은거*/
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face { /*나눔*/
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+body{
+    width: 550px;
+    margin: 0 auto;
+    background-color: #ebebeb;
+}
+ul{
+    list-style: none;
+    width: auto;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+li{
+    display: inline-block;
+    width: 120px;
+    font-family: 'NanumBarunGothic';
+}
+li:hover{
+    text-shadow: -0.5px -0.5px black;
+}
+h2{
+    text-align: center;
+    font-family: 'yg-jalnan';
+
+}
+h3{
+    font-family: 'S-CoreDream-3Light';
+}
+input[type=submit],input[type=reset]{
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    background-color: rgb(43, 150, 114);
+    color: white;
+    font-family: 'NanumBarunGothic';
+    border: 0;
+}
+input[type=submit]:hover,input[type=reset]:hover{
+    background-color: black;
+}
+#ipji>li:nth-of-type(1),#ipji>li:nth-of-type(2),#ipji>li:nth-of-type(1),
+#ipji>li:nth-of-type(4){    
+    margin-top: 14px;
+}
+#trand>li{
+    margin-top: 14px;
+}
+#badak>li:nth-of-type(1),#badak>li:nth-of-type(2),#badak>li:nth-of-type(3),
+#badak>li:nth-of-type(4){
+    margin-top: 14px;
+}
+#tema>li:nth-of-type(1),#tema>li:nth-of-type(2),#tema>li:nth-of-type(3),
+#tema>li:nth-of-type(4){
+    margin-top: 20px;
+}
+#budae>li:nth-of-type(1),#budae>li:nth-of-type(2),#budae>li:nth-of-type(3),
+#budae>li:nth-of-type(4){
+    margin-top: 20px;
+}
+#price,#trand{
+    height: 50px;
+}
+#price>input{
+    margin-top: 14px;
+    margin-left: 20px;
+}
+#ipji,#badak{
+    height: 70px;
+}

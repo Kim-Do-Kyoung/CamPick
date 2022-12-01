@@ -1,0 +1,64 @@
+@font-face { /*여기어때*/
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {/*감성쩔*/ /*소글씨*/
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face { /*에스코어 드림*/ /*제목같은거*/
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face { /*나눔*/
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+
+body{
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+h2{
+    margin-top: 100px;
+    font-family: 'S-CoreDream-3Light';
+}
+tr,td{
+    border: 1px solid black;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    font-family: 'S-CoreDream-3Light';
+    background-color: #f4c265;
+}
+table{
+    margin: 70px;
+}
+input:not([type=submit]){
+    width: 300px;
+    height: 50px;
+    margin: 0;
+    font-size: 20px;
+}
+input[type=submit]{
+    width: 250px;
+    height: 70px;
+    font-size: 25px;
+    margin-bottom: 100px;
+    font-family: 'yg-jalnan';
+    color: white;
+    background-color:  #375959;
+}
